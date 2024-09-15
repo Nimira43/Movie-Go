@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Movies = () => {
 
-  const { movies, setMovies } = useState([])
+  const [movies, setMovies] = useState([])
   
   useEffect(() => {
     let moviesList = [
@@ -12,7 +13,7 @@ const Movies = () => {
         release_date: "1977-05-25",
         runtime: 121,
         mpaa_rating: "PG",
-        description: "A long time ago, in a galaxy far, far away...",
+        description: "A long time ago, in a galaxy far far away...",
       },
       {
         id: 2,
@@ -49,10 +50,16 @@ const Movies = () => {
         <tbody>
           {movies.map((m) => (
             <tr key={m.id}>
-
+              <td>
+                <Link to={`/movies/${m.id}`}>
+                  {m.title}
+                </Link>
+              </td>
+              <td>{m.release_date}</td>
+              <td>{m.mpaa_rating}</td>
             </tr>
             
-          )}
+          ))}
         </tbody>
       </table>
     </div>
