@@ -11,7 +11,7 @@ function App() {
         <div className='col text-end'>
           <a href='#!'><span className='badge bg-danger'>Login</span></a>
         </div>
-        <hr className='col-md-3'/>
+        <hr className='mb-3'/>
       </div>
       <div className="row">
         <div className="col-md-2">
