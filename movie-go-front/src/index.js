@@ -10,6 +10,8 @@ import Home from './components/Home'
 import Login from './components/Login'
 import ManageMovies from './components/ManageMovies'
 import Movies from './components/Movies'
+import Movie from './components/Movie'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -23,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/movies',
         element: <Movies />,
+      },
+      {
+        path: '/movies/:id',
+        element: <Movie />,
       },
       {
         path: '/genres',
