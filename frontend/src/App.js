@@ -20,6 +20,10 @@ function App() {
             <div className='list-group'>
               <a href='#!' className='list-group-item list-group-item-action bg-ember light'>Home</a>
               <a href='#!' className='list-group-item list-group-item-action bg-ember light'>Movies</a>
+              <a href='#!' className='list-group-item list-group-item-action bg-ember light'>Genres</a>
+              <a href='#!' className='list-group-item list-group-item-action bg-ember light'>Add Movies</a>
+              <a href='#!' className='list-group-item list-group-item-action bg-ember light'>Edit Movies</a>
+              <a href='#!' className='list-group-item list-group-item-action bg-ember light'>GraphQL Options</a>
             </div>
           </nav>
         </div>
