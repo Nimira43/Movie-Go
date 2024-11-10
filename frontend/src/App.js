@@ -18,8 +18,8 @@ function App() {
         <div className='col-md-2'>
           <nav>
             <div className='list-group'>
-              <a href='#!' className='list-group-item list-group-item-action'>Home</a>
-              <a href='#!' className='list-group-item list-group-item-action'>Movies</a>
+              <a href='#!' className='list-group-item list-group-item-action bg-ember light'>Home</a>
+              <a href='#!' className='list-group-item list-group-item-action bg-ember light'>Movies</a>
             </div>
           </nav>
         </div>
