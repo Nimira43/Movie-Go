@@ -23,7 +23,7 @@
   --gold: #ffd700;
   --accept: #228b22;
   --warm: #b5341d;
-  --xs: var(--xs);
+  --xs: 5px;
   --sm: 10px;
   --md: 15px;
   --lg: 20px;
@@ -84,14 +84,24 @@ p {
 button { 
   border-radius: var(--xs); 
   margin: var(--lg); 
-  padding: var(--sm) var(--lg); 
+  padding: var(--xs) var(--sm); 
   font-size: 18px; 
-  font-weight: bold; 
-} 
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button:active {
+  transform: scale(0.98);
+}
 
 /* Dark */ 
 .btn-dark { 
-  background-color: var(--dark); color: var(--light-2); 
+  background-color: var(--dark); 
+  color: var(--light-2); 
+  border: 2px solid var(--dark);
 } 
 .btn-dark-outline { 
   border: 2px solid var(--dark); 
@@ -103,6 +113,7 @@ button {
 .btn-light { 
   background-color: var(--light-2); 
   color: var(--dark); 
+  border: 2px solid var(--light-2);
 } 
 .btn-light-outline { 
   border: 2px solid var(--light-2); 
@@ -113,7 +124,9 @@ button {
 /* Mist */ 
 .btn-mist { 
   background-color: var(--grey-lg); 
-  color: var(--grey-dk); } 
+  color: var(--grey-dk); 
+  border: 2px solid var(--grey-lg);
+} 
 .btn-mist-outline { 
   border: 2px solid var(--grey-lg); 
   color: var(--grey-lg); 
@@ -124,6 +137,7 @@ button {
 .btn-wisdom { 
   background-color: var(--wisdom); 
   color: var(--light-2); 
+  border: 2px solid var(--wisdom);
 } 
 .btn-wisdom-outline { 
   border: 2px solid var(--wisdom); 
@@ -135,6 +149,7 @@ button {
 .btn-gold { 
   background-color: var(--gold); 
   color: var(--dark); 
+  border: 2px solid var(--gold);
 } 
 .btn-gold-outline { 
   border: 2px solid var(--gold);
@@ -145,7 +160,9 @@ button {
 /* Ember */ 
 .btn-ember { 
   background-color: var(--primary); 
-  color: var(--light-2); } 
+  color: var(--light-2); 
+  border: 2px solid var(--primary);
+} 
 .btn-ember-outline { 
   border: 2px solid var(--primary); 
   color: var(--primary); 
@@ -156,6 +173,7 @@ button {
 .btn-accept { 
   background-color: var(--accept); 
   color: var(--light-2); 
+  border: 2px solid var(--accept);
 } 
 .btn-accept-outline { 
   border: 2px solid var(--accept); 
@@ -167,6 +185,7 @@ button {
 .btn-warm { 
   background-color: var(--warm); 
   color: var(--light-2); 
+  border: 2px solid var(--warm);
 } 
 .btn-warm-outline { 
   border: 2px solid var(--warm); 

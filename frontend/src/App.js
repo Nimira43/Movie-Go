@@ -1,11 +1,15 @@
 function App() {
   return (
     <div className='container'>
-      <h1 className='logo'>My Movie DB</h1>
-
-      <button className='btn-wisdom-outline'>Submit</button>
-    </div>
-    
+      <div className="row">
+        <div className="col">
+          <h1 className='logo'>My Movie DB</h1>
+        </div>
+        <div className="col text-end">
+          <button className="btn-ember">Login</button>
+        </div>
+      </div>
+    </div>   
   )
 }
 
