@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=League+Spartan:wght@100..900&display=swap');
 
-
-
 * {
   font-family: 'League Spartan', sans-serif;
   font-weight: 300;
@@ -40,10 +38,11 @@
   --h5-size: 1.25rem;
   --h6-size: 1rem; 
   --p-size: 1rem;
-  --line-height: 1.5;
+  --line-height: 1.5rem;
 }
 
 body {
+  margin: 10px;
   line-height: var(--line-height);
 } 
 
