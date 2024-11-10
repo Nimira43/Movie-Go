@@ -118,6 +118,30 @@ p {
 .warm {
   color: var(--warm);
 }
+.bg-dark {
+  background-color: var(--dark);
+}
+.bg-light {
+  background-color: var(--light-2);
+}
+.bg-mist {
+  background-color: var(--mist);
+}
+.bg-wisdom {
+  background-color: var(--wisdom);
+}
+.bg-gold {
+  background-color: var(--gold);
+}
+.bg-ember {
+  background-color: var(--primary);
+}
+.bg-accept {
+  background-color: var(--accept);
+}
+.bg-warm {
+  background-color: var(--warm);
+}
 
 button { 
   border-radius: var(--xs); 
