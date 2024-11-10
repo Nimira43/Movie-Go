@@ -42,18 +42,18 @@
 }
 
 body {
-  margin: 10px;
   line-height: var(--line-height);
 } 
 
-/* a {
+a {
   text-decoration: none;
-} */
+}
 
 .logo {
   font-family: 'Amatic SC', sans-serif;
   font-weight: bold;
   color: var(--primary);
+  padding: var(--sm) 0;
 }
 
 h1 { 
