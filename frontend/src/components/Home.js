@@ -4,7 +4,7 @@ const Home = () => {
   return(
     <>
       <div className='text-center'>
-        <h2>Search My Movie DB</h2>
+        <h2 className='ember'>Search My Movie DB</h2>
         <hr />
         <img src={Falcon} alt="Millenium Falcon"></img>
       </div>
