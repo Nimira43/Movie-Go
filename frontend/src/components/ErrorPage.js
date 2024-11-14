@@ -1,4 +1,4 @@
-import { FourOhFour } from './../images/vader.png'
+import FourOhFour from './../images/vader.png'
 import { useRouteError } from 'react-router-dom'
 
 export default function ErrorPage() {
